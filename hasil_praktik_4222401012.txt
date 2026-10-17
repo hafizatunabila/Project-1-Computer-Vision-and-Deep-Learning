@@ -1,0 +1,17 @@
+==============================================================================
+  PROJECT-1 503 COMPUTER VISION DAN DEEP LEARNING
+==============================================================================
+  NIM / Nama    : 4222401012 / Nur Hafidzatun Nabila
+  Waktu         : 16-10-2026 21:23:17
+  Komputer/user : hafiza15 / user
+  Dataset       : dataset_v1  (sidik jari label: 96476E70E523)
+  Pengaturan    : model yolo26n, epochs 30, imgsz 416, batch 16
+==============================================================================
+  Eksperimen     Perubahan        mAP50  mAP50-95      P      R     ms   menit
+  E1_pretrained  -                0.978     0.900  0.964  0.952   34.9     8.6
+  E2_scratch     -                0.144     0.041  0.165  0.150   41.3     7.9
+  E3_tuning      imgsz=640        0.995     0.932  0.991  1.000   61.1    19.6
+==============================================================================
+  Model terpilih (mAP50-95 val tertinggi): E3_tuning
+  Hasil di data TEST (sekali saja)       : mAP50 0.900 | mAP50-95 0.745
+==============================================================================

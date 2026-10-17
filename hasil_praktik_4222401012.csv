@@ -1,0 +1,4 @@
+eksperimen,perubahan,pretrained,mAP50,mAP50-95,precision,recall,inferensi_ms,waktu_latih_menit,imgsz,bobot
+E1_pretrained,-,True,0.9782,0.9,0.9635,0.9517,34.89,8.56,416,C:\Users\user\OneDrive\Documents\semester 5\503\Project-1\hasil_praktik\E1_pretrained\weights\best.pt
+E2_scratch,-,False,0.144,0.0407,0.1653,0.15,41.34,7.91,416,C:\Users\user\OneDrive\Documents\semester 5\503\Project-1\hasil_praktik\E2_scratch\weights\best.pt
+E3_tuning,imgsz=640,True,0.995,0.9318,0.9913,1.0,61.15,19.58,640,C:\Users\user\OneDrive\Documents\semester 5\503\Project-1\hasil_praktik\E3_tuning\weights\best.pt

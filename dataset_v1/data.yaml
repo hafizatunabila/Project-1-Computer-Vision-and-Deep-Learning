@@ -1,0 +1,7 @@
+path: C:/Users/user/OneDrive/Documents/semester 5/503/Project-1/dataset_v1
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: car
+  1: motorcycle
